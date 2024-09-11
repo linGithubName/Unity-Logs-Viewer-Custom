@@ -1,0 +1,4 @@
+﻿{
+	"name": "UnityLogsViewer.Runtime",
+	"references":[ "GUID:0c1e7669cbd0c9744a16e58511912bbd" ]
+}
