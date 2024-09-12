@@ -748,7 +748,7 @@ public class Reporter : MonoBehaviour
 
 		GUI.skin = toolbarScrollerSkin;
 		infoScrollPosition = GUILayout.BeginScrollView(infoScrollPosition);
-		GUILayout.Space(size.x);
+		GUILayout.Space(size.x*2);
 		GUILayout.BeginHorizontal();
 		GUILayout.Space(size.x);
 		GUILayout.Box(buildFromContent, nonStyle, GUILayout.Width(size.x), GUILayout.Height(size.y));
